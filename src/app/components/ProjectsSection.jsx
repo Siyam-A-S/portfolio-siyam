@@ -11,7 +11,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "Project 1 description",
+    description: "This is my personal portfolio website built with React and Tailwind CSS",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -20,11 +20,11 @@ const projectsData = [
   {
     id: 2,
     title: "Quantum OCR Scheduler",
-    description: "Successfuly implemented automation in digitization effort of heritage materials",
+    description: "Developed a program to batch schedule OCR tasks on QuantumOCR with Python",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Siyam-A-S/QuantumOCR-Scheduler.git",
-    previewUrl: "./TimelineLink",
+    previewUrl: "/",
   },
 ];
 
