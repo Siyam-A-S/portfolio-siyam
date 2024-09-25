@@ -58,11 +58,12 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">I offer</h2>
           
           <ul className="list-disc pl-2">
-            <li>a deep understanding of the fundamentals of data strucuture, algorithm, computer architecture and memory allocation.</li>
+            <li>a deep understanding of the fundamentals of data structure, algorithm, computer architecture, distributed systems and memory management.</li>
             <li>fullstack web development and API creation capabilities using React, Express and Firebase/MongoDB.</li>
-            <li>basic security knowledge of web and windows based machine - CSRF, endpoint protection and binary unpacking.</li>
-            <li>newspaper digitization pipeline of cultural heritage materials following FADGI guidelines.</li>
-            <li>hands on debugging, testing and version control.</li>
+            <li>intermediate security knowledge of web and windows based machine - CSRF, endpoint protection and binary unpacking, kerberos.</li>
+            <li>newspaper digitization pipeline of cultural heritage materials with visual content extraction, embedding generation for fast quering and clustering.</li>
+            <li>hands on debugging, testing, error handling and version control.</li>
+            <li>currently motivated on distributed job scheduler, container orchestration, kafka.</li>
           </ul>
           
           <div className="flex flex-row justify-start mt-8">
