@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
@@ -25,11 +24,14 @@ const HeroSection = () => {
             </p>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Web developer. Security enthusiasist. Python Programmer. Cloud Practitioner.
+            I am a junior computer science student at Howard University. I love building
+            software applications and learning new technologies. In 5 years, I see myself
+            as a capable software engineer who can build scalable and reliable software in
+            a team I really enjoy working with. In 10 years, I see that team and I leading a company.
           </p>
           <div>
             <Link
-              href="/#contact"
+              href="https://www.linkedin.com/in/siyam-al-shahriar/"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me

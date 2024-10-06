@@ -5,16 +5,22 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "Tools and Frameworks",
+    id: "Tools and Frameworks",
     content: (
       <ul className="list-disc pl-2">
+        <li>React</li>
+        <li>Kafka</li>
+        <li>Notion</li>
         <li>NextJS</li>
         <li>Express</li>
         <li>MySQL</li>
-        <li>Firebase/MongoDB</li>
+        <li>MongoDB/Firebase</li>
         <li>AWS Cloud</li>
-        <li>CI/CD version control</li>
+        <li>Terraform</li>
+        <li>CI/CD</li>
+        <li>Git</li>
+        <li>Docker</li>
       </ul>
     ),
   },
@@ -41,7 +47,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("Tools and Frameworks");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -68,11 +74,11 @@ const AboutSection = () => {
           
           <div className="flex flex-row justify-start mt-8">
             <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
+              selectTab={() => handleTabChange("Tools and Frameworks")}
+              active={tab === "Tools and Frameworks"}
             >
               {" "}
-              Skills{" "}
+              Tools and Frameworks{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}

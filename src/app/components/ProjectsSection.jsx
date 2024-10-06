@@ -16,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Quantum OCR Scheduler",
-    description: "Developed a program to batch schedule OCR tasks on QuantumOCR with Python",
+    title: "OCR Scheduler",
+    description: "Developed a program to batch schedule OCR tasks on QuantumOCR and pytesseract with Python",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Siyam-A-S/QuantumOCR-Scheduler.git",
