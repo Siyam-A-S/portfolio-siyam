@@ -23,6 +23,15 @@ const projectsData = [
     gitUrl: "https://github.com/Siyam-A-S/QuantumOCR-Scheduler.git",
     previewUrl: "/",
   },
+  {
+    id: 3,
+    title: "Operating System in C",
+    description: "Tested and implemented various system calls in C to understand the working of an Operating System",
+    image: "/images/projects/image3.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Siyam-A-S/OperatingSystemPlayground",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
